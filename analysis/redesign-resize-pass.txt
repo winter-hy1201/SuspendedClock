@@ -1,0 +1,3 @@
+before=(280, 273, 822, 578)
+after=(280, 273, 922, 635)
+Repeated double-tap then resize: PASS

@@ -1,0 +1,9 @@
+.gradle/
+**/build/
+local.properties
+.tools/
+analysis/decompiled/
+analysis/*.log
+*.jks
+*.keystore
+.DS_Store

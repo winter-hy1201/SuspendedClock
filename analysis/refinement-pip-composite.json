@@ -1,0 +1,16 @@
+{
+  "mode": "PiP",
+  "frame": [
+    32,
+    80,
+    473,
+    329
+  ],
+  "matching_background_pixels": 5710,
+  "underlay_luminance_range": [
+    0.0,
+    255.0
+  ],
+  "median_composite_error": 0.4941176470588289,
+  "expected_alpha": 0.7019607843137254
+}

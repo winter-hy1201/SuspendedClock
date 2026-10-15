@@ -1,0 +1,27 @@
+  Window #5 Window{4c3da56 u0 local.suspendedclock}:
+    mDisplayId=0 rootTaskId=1 mSession=Session{143a253 7708:u0a10084} mClient=android.os.BinderProxy@891ba18
+    mOwnerUid=10084 showForAllUsers=false package=local.suspendedclock appop=SYSTEM_ALERT_WINDOW
+    mAttrs={(179,225)(440x248) gr=TOP LEFT CENTER sim={adjust=pan} ty=APPLICATION_OVERLAY fmt=TRANSLUCENT
+      fl=NOT_FOCUSABLE NOT_TOUCH_MODAL HARDWARE_ACCELERATED
+      pfl=USE_BLAST FIT_INSETS_CONTROLLED
+      bhv=DEFAULT
+      fitTypes=STATUS_BARS NAVIGATION_BARS CAPTION_BAR}
+    Requested w=440 h=248 mLayoutSeq=679
+    mBaseLayer=111000 mSubLayer=0    mToken=WindowToken{34fbc71 type=2038 android.os.BinderProxy@891ba18}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=false
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans,en_US] ldltr sw540dp w540dp h936dp 320dpi lrg long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 1920) mAppBounds=Rect(0, 0 - 1080, 1920) mMaxBounds=Rect(0, 0 - 1080, 1920) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.115 fontWeightAdjustment=0}
+    mLastReportedConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans,en_US] ldltr sw540dp w540dp h936dp 320dpi lrg long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 1920) mAppBounds=Rect(0, 0 - 1080, 1920) mMaxBounds=Rect(0, 0 - 1080, 1920) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.115 fontWeightAdjustment=0}
+    mHasSurface=true isReadyForDisplay()=true mWindowRemovalAllowed=false
+    Frames: parent=[0,48][1080,1920] display=[0,48][1080,1920] frame=[179,273][619,521] last=[495,1225][935,1473] insetsChanged=false
+     surface=[0,0][0,0]
+    WindowStateAnimator{433c099 }:
+      mSurface=Surface(name=)/@0xe0dcf5e
+      Surface: shown=true layer=0 alpha=1.0 rect=(0.0,0.0)  transform=(1.0, 0.0, 0.0, 1.0)
+      mDrawState=HAS_DRAWN       mLastHidden=false
+      mEnterAnimationPending=false      mSystemDecorRect=[0,0][0,0]
+    mForceSeamlesslyRotate=false seamlesslyRotate: pending=null    isOnScreen=true
+    isVisible=true
+    keepClearAreas: restricted=[], unrestricted=[]
+    mPrepareSyncSeqId=0
+

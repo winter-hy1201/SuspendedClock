@@ -1,0 +1,6 @@
+# Preserve raw Android/REA captures, including their original line endings and whitespace.
+analysis/** -text -whitespace
+
+# Keep Gradle launchers usable on their respective platforms.
+gradlew text eol=lf
+gradlew.bat text eol=crlf

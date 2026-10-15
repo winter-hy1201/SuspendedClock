@@ -1,0 +1,19 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{bf44cde u0 local.suspendedclock/.ClockService}
+    intent={cmp=local.suspendedclock/.ClockService}
+    packageName=local.suspendedclock
+    processName=local.suspendedclock
+    baseDir=/data/app/~~BmjQxEhqcS27Y23coFNTaw==/local.suspendedclock-VvhF-2OkfwuDK6gpVaCLjQ==/base.apk
+    dataDir=/data/user/0/local.suspendedclock
+    app=ProcessRecord{c4206c 4198:local.suspendedclock/u0a84}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=local.suspendedclock
+    recentCallingUid=10084
+    allowStartForeground=PROC_STATE_TOP
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: local.suspendedclock; callingUid: 10084; uidState: TOP ; intent: Intent { cmp=local.suspendedclock/.ClockService }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=1 foregroundNoti=Notification(channel=clock_running shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 actions=1 vis=PRIVATE)
+    createTime=-41s549ms startingBgTimeout=--
+    lastActivity=-41s546ms restartTime=-41s546ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1

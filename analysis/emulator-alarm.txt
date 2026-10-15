@@ -1,0 +1,50 @@
+        com.google.android.gms
+        com.google.android.gsf
+        android.ext.services
+        local.suspendedclock
+        com.android.wifi.resources
+        com.android.calllogbackup
+        com.google.android.partnersetup
+        com.android.cameraextensions
+        com.android.localtransport
+        com.android.packageinstaller
+        com.android.carrierdefaultapp
+        com.android.theme.font.notoserifsource
+        com.android.proxyhandler
+        com.android.internal.display.cutout.emulation.waterfall
+--
+      policyWhenElapsed: requester=-24s268ms app_standby=-6m51s449ms device_idle=-- battery_saver=-- tare=-6m51s449ms
+      whenElapsed=-24s268ms maxWhenElapsed=+4m26s117ms
+      listener=android.app.AlarmManager$ListenerWrapper@27d5b08
+    ELAPSED_WAKEUP #184: Alarm{14c62a1 type 2 origWhen 1232139 whenElapsed 1232140 local.suspendedclock}
+      tag=*walarm*:local.suspendedclock/.TimerReceiver
+      type=ELAPSED_WAKEUP origWhen=+3s962ms window=0 exactAllowReason=permission repeatInterval=0 count=0 flags=0x5
+      policyWhenElapsed: requester=+3s963ms app_standby=-1s37ms device_idle=-- battery_saver=-1s37ms tare=-1s37ms
+      whenElapsed=+3s963ms maxWhenElapsed=+3s963ms
+      operation=PendingIntent{d193cc6: PendingIntentRecord{b676487 local.suspendedclock broadcastIntent}}
+      idle-options=Bundle[{android.pendingIntent.backgroundActivityAllowed=false, android:broadcast.temporaryAppAllowlistReasonCode=302, android:broadcast.temporaryAppAllowlistDuration=10000, android:broadcast.is_alarm=true, android:broadcast.temporaryAppAllowlistReason=, android:broadcast.temporaryAppAllowlistType=0}]
+    ELAPSED #185: Alarm{3111fb4 type 3 origWhen 1239409 whenElapsed 1239409 android}
+      tag=*alarm*:TIME_TICK
+      type=ELAPSED origWhen=+11s232ms window=0 exactAllowReason=allow-listed repeatInterval=0 count=0 flags=0x9
+      policyWhenElapsed: requester=+11s232ms app_standby=-48s768ms device_idle=-- battery_saver=-- tare=-48s768ms
+      whenElapsed=+11s232ms maxWhenElapsed=+11s232ms
+      listener=com.android.server.alarm.AlarmManagerService$3@f2b87dd
+    ELAPSED_WAKEUP #186: Alarm{adc5f52 type 2 origWhen 1245237 whenElapsed 1245237 android}
+      tag=*walarm*:*job.deadline*
+      type=ELAPSED_WAKEUP origWhen=+17s60ms window=+15m19s796ms repeatInterval=0 count=0 flags=0x0
+--
+      [tag=*alarm*:com.google.android.chimera.container.IntentOperationService.SAVED_INTENT reason=alarm_cancelled elapsed=-7m8s993ms rtc=2026-10-15 15:15:39.775]
+      [tag=*alarm*:com.google.android.chimera.container.IntentOperationService.SAVED_INTENT reason=alarm_cancelled elapsed=-7m8s636ms rtc=2026-10-15 15:15:40.132]
+    u0a84:
+      [tag=*walarm*:local.suspendedclock/.TimerReceiver reason=alarm_cancelled elapsed=-1m18s558ms rtc=2026-10-15 15:21:30.210]
+      [tag=*walarm*:local.suspendedclock/.TimerReceiver reason=alarm_cancelled elapsed=-20s370ms rtc=2026-10-15 15:22:28.398]
+  
+  Top Alarms:
+    +2s138ms running, 0 wakeups, 21 alarms: 1000:android
+      *alarm*:TIME_TICK
+    +612ms running, 0 wakeups, 1 alarms: 1000:android
+      *alarm*:com.android.server.action.NETWORK_STATS_POLL
+    +225ms running, 0 wakeups, 6 alarms: u0a56:com.google.android.gms
+      *alarm*:com.google.android.gms.gcm.ACTION_CHECK_QUEUE
+    +102ms running, 8 wakeups, 8 alarms: 1000:android
+      *walarm*:*job.deadline*

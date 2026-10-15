@@ -1,0 +1,11 @@
+{
+  "mode": "Overlay",
+  "frame": [
+    28,
+    219,
+    670,
+    581
+  ],
+  "matching_background_pixels": 18058,
+  "median_composite_error": 0.4941176470588289
+}
